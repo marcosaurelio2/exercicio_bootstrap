@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-success">
+                    <p>Confira as novidades do blog <a href="#">Clicando aqui</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Últimas atualizações da semana</h2>
+                <div class="container g-0">
+                    <div class="row">
+                        <div class="col-md-4 post">
+                            <img src="https://via.placeholder.com/180x180">
+                            <h4 class="h5">Título da postagem</h4>
+                            <time>04/11/2024</time>
+                            <a class="btn btn-primary btn-sm">Ler mais</a>
+                        </div>
+                        <div class="col-md-4 post">
+                            <img src="https://via.placeholder.com/180x180">
+                            <h4 class="h5">Título da postagem</h4>
+                            <time>04/11/2024</time>
+                            <a class="btn btn-primary btn-sm">Ler mais</a>
+                        </div>
+                        <div class="col-md-4 post">
+                            <img src="https://via.placeholder.com/180x180">
+                            <h4 class="h5">Título da postagem</h4>
+                            <time>04/11/2024</time>
+                            <a class="btn btn-primary btn-sm">Ler mais</a>
+                        </div>
+                        <div class="col-md-4 post">
+                            <img src="https://via.placeholder.com/180x180">
+                            <h4 class="h5">Título da postagem</h4>
+                            <time>04/11/2024</time>
+                            <a class="btn btn-primary btn-sm">Ler mais</a>
+                            
+                        </div>
+                        <div class="col-md-4 post">
+                            <img src="https://via.placeholder.com/180x180">
+                            <h4 class="h5">Título da postagem</h4>
+                            <time>04/11/2024</time>
+                            <a class="btn btn-primary btn-sm">Ler mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-end">
+                <div>
+                    <h4>Anunciantes</h4>
+                    <img src="https://via.placeholder.com/180x180">  
+                </div>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Faça seu cadastro</h2>
+                <form>
+                    <label class="form-label" for="nome">Seu nome</label>
+                    <input class="form-control" type="text" id="nome">
+                    <label class="form-label" for="email">Seu email</label>
+                    <input class="form-control" type="email" id="email">
+                    <label class="form-label" for="number">Seu número</label>
+                    <input class="form-control" type="number" id="number">
+                    <label class="form-label" for="mensagem">Deixe sua mensagem</label>
+                    <textarea id="mensagem" class="form-control"></textarea>
+                    <div class="form-check form-switch">
+                        <label class="form-check-label" for="aceito-termos">Li e concordo com os termos</label>
+                        <input class="form-check-input" type="checkbox" id="aceito-termos">
+                    </div>
+                    <button class="btn btn-success">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
